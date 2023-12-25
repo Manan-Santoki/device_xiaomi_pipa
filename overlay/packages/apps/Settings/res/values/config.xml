@@ -14,4 +14,9 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Whether sim related information is visible to the end user. -->
     <bool name="config_show_sim_info">false</bool>
+
+    <!-- DerpFest maintainer -->
+    <string name="maintainer_name">Amrutesh</string>
+    <string name="maintainer_telegram">https://t.me/TheKamisatoClan</string>
+
 </resources>

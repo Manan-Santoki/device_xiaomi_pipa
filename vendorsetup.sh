@@ -1,5 +1,5 @@
 echo 'cloning common tree'
-git clone https://github.com/Xiaomi-pad-6-development/android_device_xiaomi_sm8250-common.git device/xiaomi/sm8250-common
+git clone https://github.com/Xiaomi-pad-6-development/android_device_xiaomi_sm8250-common.git -b derp-14 device/xiaomi/sm8250-common
 
 echo 'Cloning proprietary vendor'
 git clone https://github.com/Xiaomi-pad-6-development/proprietary_vendor_xiaomi_pipa.git vendor/xiaomi/pipa
