@@ -19,4 +19,7 @@
     <string name="maintainer_name">Amrutesh</string>
     <string name="maintainer_telegram">https://t.me/TheKamisatoClan</string>
 
+    <!-- Whether to show Smooth Display feature in Settings Options -->
+    <bool name="config_show_smooth_display">true</bool>
+
 </resources>
