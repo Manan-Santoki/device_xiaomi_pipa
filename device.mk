@@ -31,6 +31,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libpiex_shim
 
+#FlipFlap
+PRODUCT_PACKAGES += \
+    FlipFlap
 # Keyboard
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/idc/Xiaomi_Keyboard.idc:$(TARGET_COPY_OUT_VENDOR)/usr/idc/Xiaomi_Keyboard.idc

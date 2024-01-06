@@ -13,5 +13,7 @@ git clone https://github.com/crdroidandroid/android_kernel_xiaomi_sm8250.git -b 
 echo 'cloning xiaomi hals'
 git clone https://github.com/Xiaomi-pad-6-development/android_hardware_xiaomi.git hardware/xiaomi
 
+echo 'Cloning FlipFlap'
+git clone https://github.com/Xiaomi-pad-6-development/android_packages_apps_FlipFlap.git packages/apps/FlipFlap
 echo 'removing vendorsetup.sh'
 rm -rf device/xiaomi/pipa/vendorsetup.sh
