@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-License-Identifier: Apache-2.0
+-->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Evolution X: maintainer shown on the About tablet card for unofficial builds -->
+    <string name="build_maintainer_summary" translatable="false">MananSantoki</string>
+    <string name="build_maintainer_donate_url" translatable="false">https://msantoki.com</string>
+</resources>
