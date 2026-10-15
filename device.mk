@@ -72,3 +72,6 @@ $(call inherit-product, vendor/xiaomi/pipa/pipa-vendor.mk)
 
 # Camera
 $(call inherit-product-if-exists, device/xiaomi/camera/miuicamera.mk)
+
+# Bundled apps (YouTube, YouTube Music, Reddit) and their updater
+$(call inherit-product-if-exists, vendor/evox-apps/config.mk)
