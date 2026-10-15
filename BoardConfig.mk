@@ -30,3 +30,6 @@ SOONG_CONFIG_XIAOMI_KONA_WIFI_SYMLINK_VERSION := v2
 
 # Inherit from the proprietary version
 include vendor/xiaomi/pipa/BoardConfigVendor.mk
+
+# Bundled apps and built-in ad blocking
+-include vendor/evox-apps/BoardConfig.mk
