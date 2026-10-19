@@ -25,8 +25,15 @@ TARGET_SUPPORTS_QUICK_TAP := false
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
+PIPA_FINGERPRINT := Xiaomi/pipa_pad_cn/pipa:14/UKQ1.240624.001/OS2.0.20.0.UMZCNXM:user/release-keys
+
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BuildFingerprint=Xiaomi/pipa_pad_cn/pipa:14/UKQ1.240624.001/OS2.0.20.0.UMZCNXM:user/release-keys  \
+    BuildFingerprint=$(PIPA_FINGERPRINT)
+
+# Evolution X replaces the build fingerprint with a Pixel one. Keep the real one
+# here for the apps that are given it back, like the setup wizard.
+PRODUCT_SYSTEM_PROPERTIES += \
+    ro.product.fingerprint=$(PIPA_FINGERPRINT)
 
 # Evolution X
 EVO_BUILD_TYPE := Unofficial
