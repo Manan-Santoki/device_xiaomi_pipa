@@ -8,11 +8,6 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base.mk)
 
-# Report the real pipa fingerprint instead of Evolution X's Pixel beta spoof.
-# With the spoof, the Pixel setup wizard runs Pixel-only early-update steps and
-# loops on "Checking for updates". Must be set before common.mk is inherited.
-TARGET_ENABLE_FP_OVERRIDE := false
-
 # Inherit some common lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_tablet_wifionly.mk)
 
